@@ -21,6 +21,12 @@ header {
 }
 
 /* Navbar Start */
+.navbar {
+  padding: 20px 0 20px 0;
+  width: 100%;
+  position: fixed;
+}
+
 .navbar .navbar-box {
   display: flex;
   justify-content: space-between;
@@ -44,6 +50,7 @@ header {
 .navbar .navbar-box .menu li a {
   text-decoration: none;
   color: #fff;
+  padding: 10px 15px 10px 15px;
 }
 
 .menu-bar {
