@@ -6,12 +6,54 @@
   scroll-behavior: smooth;
 }
 
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../assets/img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .container {
   width: 80%;
   margin-inline: auto;
 }
 
+/* Navbar Start */
 .navbar .navbar-box {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
+.navbar .navbar-box .logo h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navbar .navbar-box .menu {
+  display: flex;
+  column-gap: 50px;
+}
+
+.navbar .navbar-box .menu li {
+  list-style-type: none;
+}
+
+.navbar .navbar-box .menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-bar {
+  display: none;
+}
+/* Navbar End */
+
+/* Hero Start */
+.hero {
+  width: 100%;
+  min-height: 100vh;
+}
+/* Hero End */
