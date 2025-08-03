@@ -108,5 +108,11 @@ header {
     -o-transition: translateX(50%);
     opacity: 0;
   }
+
+  .navbar .navbar-box .menu.menu-active {
+    top: 80px;
+    opacity: 1;
+    border-top: 1px solid #fff;
+  }
 }
 /* Hero End */
