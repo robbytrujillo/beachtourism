@@ -93,13 +93,30 @@ header {
 /* Hero Start */
 .hero {
   width: 100%;
-  min-height: 200vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
 }
 
 .hero .hero-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
+  column-gap: 50px;
+}
+
+.hero .hero-box .box:nth-child(1) h1 {
+  color: #fff;
+  font-size: 3vw;
+}
+
+.hero .hero-box .box:nth-child(1) p {
+  color: #fff;
+}
+
+.hero .hero-box .box:nth-child(2) img {
+  width: 100%;
 }
 
 @media screen and (max-width: 990px) {
