@@ -25,6 +25,16 @@ header {
   padding: 20px 0 20px 0;
   width: 100%;
   position: fixed;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.navbar.scrolling-active {
+  background-color: #0050b3;
+  padding: 30px 0 30px 0;
 }
 
 .navbar .navbar-box {
@@ -83,7 +93,13 @@ header {
 /* Hero Start */
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 200vh;
+}
+
+.hero .hero-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
 }
 
 @media screen and (max-width: 990px) {
@@ -107,6 +123,12 @@ header {
     -ms-transition: translateX(50%);
     -o-transition: translateX(50%);
     opacity: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background-color: #0050b3;
   }
 
   .navbar .navbar-box .menu.menu-active {
