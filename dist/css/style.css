@@ -194,6 +194,7 @@ header {
   .hero .hero-box {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
   }
 
   .hero .hero-box .box:nth-child(1) {
