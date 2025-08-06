@@ -126,6 +126,9 @@ header {
   border-radius: 30px;
   background-color: #0050b3;
   font-weight: bold;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
 
 .hero .hero-box .box:nth-child(2) img {
