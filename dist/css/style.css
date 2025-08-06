@@ -131,8 +131,23 @@ header {
   cursor: pointer;
 }
 
+.hero .hero-box .box:nth-child(1) button:hover {
+  background-color: #1c72daff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
 .hero .hero-box .box:nth-child(2) img {
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero .hero-box .box:nth-child(1) button {
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -168,6 +183,30 @@ header {
     top: 80px;
     opacity: 1;
     border-top: 1px solid #fff;
+  }
+
+  .hero .hero-box .box:nth-child(1) p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .hero-box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .hero .hero-box .box:nth-child(1) {
+    order: 2;
+  }
+
+  .hero .hero-box .box:nth-child(2) {
+    order: 1;
+  }
+
+  .hero .hero-box .box:nth-child(2) img {
+    width: 55vw;
+    text-align: center;
   }
 }
 /* Hero End */
