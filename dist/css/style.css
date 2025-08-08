@@ -194,20 +194,39 @@ header {
   .hero .hero-box {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    row-gap: 20px;
+    row-gap: 10px;
   }
 
   .hero .hero-box .box:nth-child(1) {
     order: 2;
+    text-align: center;
   }
 
   .hero .hero-box .box:nth-child(2) {
     order: 1;
+    text-align: center;
   }
 
   .hero .hero-box .box:nth-child(2) img {
     width: 55vw;
-    text-align: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .hero .hero-box .box:nth-child(1) h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  /* .hero .hero-box {
+    row-gap: 0;
+  } */
+
+  .hero .hero-box .box:nth-child(2) img {
+    width: 55vw;
+    align-self: flex-end;
+    justify-self: center;
   }
 }
 /* Hero End */
