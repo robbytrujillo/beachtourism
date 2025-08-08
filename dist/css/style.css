@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #080b0c;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../../assets/img/hero-bg.jpg");
@@ -232,3 +236,36 @@ header {
   }
 }
 /* Hero End */
+
+/* Services Start */
+.services {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 100px 0 50px 0;
+}
+
+.services .services-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.services .services-box .box {
+  width: 300px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.services .services-box .box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #0050b3;
+}
+
+.services .services-box .box p {
+  font-weight: 100;
+}
+/* Services End */
