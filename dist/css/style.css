@@ -307,4 +307,8 @@ header {
   color: #ffffff;
   font-weight: bold;
 }
+
+.beach .beach-box .box button:hover {
+  background-color: #1c72daff;
+}
 /* Beach End */
