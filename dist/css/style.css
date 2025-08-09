@@ -70,11 +70,19 @@ header {
 .navbar .navbar-box .menu .active a {
   background-color: #0050b3;
   border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 .navbar .navbar-box .menu .active a:hover {
   background-color: #1c72daff;
   border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 
 .navbar .navbar-box .menu li a:hover {
@@ -130,6 +138,10 @@ header {
   width: 180px;
   height: 50px;
   border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
   background-color: #0050b3;
   font-weight: bold;
   color: #ffffff;
@@ -303,6 +315,10 @@ header {
   height: 40px;
   border: none;
   border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
   background-color: #0050b3;
   color: #ffffff;
   font-weight: bold;
@@ -310,5 +326,10 @@ header {
 
 .beach .beach-box .box button:hover {
   background-color: #1c72daff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 /* Beach End */
