@@ -280,6 +280,19 @@ header {
 .beach .beach-box .box {
   text-align: center;
   color: #ffffff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.beach .beach-box .box:hover {
+  transform: translateY(-20px);
+    -webkit-transition: translateY(-20px);
+    -moz-transition: translateY(-20px);
+    -ms-transition: translateY(-20px);
+    -o-transition: translateY(-20px);
 }
 
 .beach .beach-box .box img {
