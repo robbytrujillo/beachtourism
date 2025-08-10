@@ -230,23 +230,6 @@ header {
   }
 }
 
-@media screen and (max-width: 575px) {
-  .hero .hero-box .box:nth-child(1) h1 {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  /* .hero .hero-box {
-    row-gap: 0;
-  } */
-
-  .hero .hero-box .box:nth-child(2) img {
-    width: 55vw;
-    align-self: flex-end;
-    justify-self: center;
-  }
-}
 /* Hero End */
 
 /* Services Start */
@@ -322,6 +305,7 @@ header {
   background-color: #0050b3;
   color: #ffffff;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .beach .beach-box .box button:hover {
@@ -333,3 +317,27 @@ header {
   -o-transition: all 0.3s ease;
 }
 /* Beach End */
+
+/* Responsive Start */
+@media screen and (max-width: 575px) {
+  .hero .hero-box .box:nth-child(1) h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  /* .hero .hero-box {
+    row-gap: 0;
+  } */
+
+  .hero .hero-box .box:nth-child(2) img {
+    width: 55vw;
+    align-self: flex-end;
+    justify-self: center;
+  }
+
+  .beach .beach-box {
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+  }
+}
+/* Responsive End */
