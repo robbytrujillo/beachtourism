@@ -336,6 +336,10 @@ header {
 }
 /* Beach End */
 
+/* Register Start  */
+
+/* Register End  */
+
 /* Responsive Start */
 @media screen and (max-width: 575px) {
   .hero .hero-box .box:nth-child(1) h1 {
