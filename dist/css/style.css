@@ -337,7 +337,30 @@ header {
 /* Beach End */
 
 /* Register Start  */
+.register {
+  padding: 50px 0 100px 0;
+}
 
+.register .register-box {
+  color: #ffffff;
+  text-align: center;
+}
+
+.register .register-box h1 {
+  margin-bottom: 50px;
+}
+
+.register .register-box h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.register .register-box button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}
 /* Register End  */
 
 /* Responsive Start */
