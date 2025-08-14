@@ -357,8 +357,8 @@ header {
 
 .register .register-box button {
   border: none;
-  width: 100px;
-  height: 40px;
+  min-width: 100px;
+  min-height: 40px;
   border-radius: 30px;
 }
 /* Register End  */
