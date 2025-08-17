@@ -358,7 +358,7 @@ header {
   font-weight: 400;
   margin-bottom: 10px;
   animation: animasi;
-  -webkit-animation: animasi;
+  -webkit-animation: animasi 2s infinite;
 }
 
 @keyframes animasi {
