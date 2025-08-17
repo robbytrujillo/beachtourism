@@ -363,10 +363,25 @@ header {
 
 @keyframes animasi {
   0% {
-
+    transform: scale(1);
+    -webkit-transition: scale(1);
+    -moz-transition: scale(1);
+    -ms-transition: scale(1);
+    -o-transition: scale(1);
   }
   50% {
-    
+    transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    -moz-transition: scale(1.2);
+    -ms-transition: scale(1.2);
+    -o-transition: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transition: scale(1);
+    -moz-transition: scale(1);
+    -ms-transition: scale(1);
+    -o-transition: scale(1);
   }
 }
 
