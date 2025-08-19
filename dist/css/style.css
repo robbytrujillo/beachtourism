@@ -440,6 +440,12 @@ header {
   font-weight: 200; 
 }
 
+.footer .footer-box .box:nth-child(1) {
+  font-size: 12px;
+  line-height: 2;
+  margin-top: 10px;
+}
+
 .footer .footer-box .box:nth-child(3) {
   text-align: center; 
 }
